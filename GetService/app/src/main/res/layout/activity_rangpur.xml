@@ -3,7 +3,8 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_height="match_parent"
-    android:layout_width="match_parent">
+    android:layout_width="match_parent"
+    android:background="@drawable/back15">
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -11,6 +12,121 @@
         android:orientation="vertical"
         tools:context=".Rangpur">
 
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="কোন পেশার মানুষের সেবা প্রয়োজন:"
+            android:layout_margin="5dp"
+            android:textSize="25sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+        <Button
+            android:id="@+id/Electrician"
+            android:layout_width="match_parent"
+            android:text="বিদ্যুৎ-মিস্ত্রি"
+            android:textSize="25sp"
+            android:layout_height="50dp" />
+
+        <Button
+            android:id="@+id/Bricklayer"
+            android:layout_width="match_parent"
+            android:text="রাজমিস্ত্রি"
+            android:textSize="25sp"
+            android:layout_height="50dp" />
+
+        <Button
+            android:id="@+id/Plumber"
+            android:layout_width="match_parent"
+            android:text="জলের মিস্ত্রি"
+            android:textSize="25sp"
+            android:layout_height="50dp" />
+
+        <Button
+            android:id="@+id/HomeTutor"
+            android:layout_width="match_parent"
+            android:text="প্রাইভেট টিউটর"
+            android:textSize="25sp"
+            android:layout_height="50dp" />
+
+        <Button
+            android:id="@+id/Designer"
+            android:layout_width="match_parent"
+            android:text="ডিজাইনার"
+            android:textSize="25sp"
+            android:layout_height="50dp" />
+
+        <Button
+            android:id="@+id/Librarian"
+            android:layout_width="match_parent"
+            android:text="লাইব্রেরিয়ান"
+            android:textSize="25sp"
+            android:layout_height="50dp" />
+
+        <Button
+            android:id="@+id/Gardener"
+            android:layout_width="match_parent"
+            android:text="গার্ডেনার"
+            android:textSize="25sp"
+            android:layout_height="50dp" />
+
+        <Button
+            android:id="@+id/SoftwareDeveloper"
+            android:layout_width="match_parent"
+            android:text="সফটওয়্যার ডেভেলপার"
+            android:textSize="25sp"
+            android:layout_height="50dp" />
+
+        <Button
+            android:id="@+id/Dentist"
+            android:layout_width="match_parent"
+            android:text="দাঁতের ডাক্তার"
+            android:textSize="25sp"
+            android:layout_height="50dp" />
+
+        <Button
+            android:id="@+id/Doctor"
+            android:layout_width="match_parent"
+            android:text="ডাক্তার"
+            android:textSize="25sp"
+            android:layout_height="50dp" />
+
+        <Button
+            android:id="@+id/Police"
+            android:layout_width="match_parent"
+            android:text="পুলিশ"
+            android:textSize="25sp"
+            android:layout_height="50dp" />
+
+        <Button
+            android:id="@+id/Labour"
+            android:layout_width="match_parent"
+            android:text="দিনমজুর"
+            android:textSize="25sp"
+            android:layout_height="50dp" />
+
+        <Button
+            android:id="@+id/Farmer"
+            android:layout_width="match_parent"
+            android:text="কৃষক"
+            android:textSize="25sp"
+            android:layout_height="50dp" />
+
+        <Button
+            android:id="@+id/Broker"
+            android:layout_width="match_parent"
+            android:text="দালাল"
+            android:textSize="25sp"
+            android:layout_height="50dp" />
+
+        <Button
+            android:id="@+id/Emergency"
+            android:layout_width="match_parent"
+            android:text="অন্যান্য  ইমার্জেন্সি"
+            android:textSize="25sp"
+            android:layout_height="50dp" />
 
 
     </LinearLayout>
