@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="@drawable/back16"
+    android:padding="30dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".buttonCall"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="অ্যাম্বুলেন্স, রাজশাহী মেডিকেল"
+            android:layout_margin="5dp"
+            android:textSize="35sp"
+            android:textColor="#cc0000"/>
+        <Button
+            android:id="@+id/buttonCall"
+            android:layout_width="match_parent"
+            android:text="CALL"
+            android:textSize="25sp"
+            android:layout_height="50dp"/>
+        <Button
+            android:id="@+id/buttonMail"
+            android:layout_width="match_parent"
+            android:text="E-mail"
+            android:textSize="25sp"
+            android:layout_height="50dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ফায়ার সার্ভিস, রাজশাহী "
+            android:layout_margin="5dp"
+            android:textColor="#cc0000"
+            android:textSize="35sp"/>
+        <Button
+            android:id="@+id/buttonCall2"
+            android:layout_width="match_parent"
+            android:text="CALL"
+            android:textSize="25sp"
+            android:layout_height="50dp" />
+        <Button
+            android:id="@+id/buttonMail2"
+            android:layout_width="match_parent"
+            android:text="E-mail"
+            android:textSize="25sp"
+            android:layout_height="50dp" />
+    </LinearLayout>
+</ScrollView>
